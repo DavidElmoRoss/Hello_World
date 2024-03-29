@@ -9,5 +9,6 @@ using MBED OS5. Make sure you set the SERIAL MONITOR to 9600 Baud
 int main()
 {
     printf("Hello World\n");
+    for(;;);                    // loop forever
 }
 
